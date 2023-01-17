@@ -3,7 +3,7 @@
 * v jeden den můžeš udělat více úkolů pokud se cítíš, ale dělej je v tomto pořadí
 * můžeš používat internet a minulé úlohy pokud není vysloveně zakázáno
 * časy jsou pouze orientační
-* na konci týdne by jsi tedy měl mít v repozitáři 6 souborů html+ readme.md
+* na konci týdne by jsi tedy měl mít v repozitáři 6 souborů html+ readme.md + elementy.html(který nebude linked)
 * tyto soubory budou přidány pomocí <a href="https://www.youtube.com/watch?v=B8RSMBSzFuA&ab_channel=Luis">commitů<a>
 
 ## Ukol 0) 
