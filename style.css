@@ -1,3 +1,18 @@
+:root {
+    --textcolor: #fff;
+    --backgroundcolor: #121212;
+    --neonpink: #F72585;
+    --darkpink: #B5179E;
+    --teal: #7209B7;
+    --bluebasic: #560BAD;
+    --bluedarker: #480CA8;
+    --bluedark: #3A0CA3;
+    --blueocean: #3F37C9;
+    --blueday: #4361EE;
+    --bluelight: #4895EF;
+    --bluehighlight: #4CC9F0;
+}
+
 body{
     background-color: black;
     padding: 0;
@@ -54,4 +69,31 @@ body{
         text-shadow: none;
     }
 
+}
+
+.bananbox{
+    color:white ;
+    padding: 2%;
+    border: 2px solid white; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #a350e7;
+    text-shadow: 0px 0px 10px #a350e7 ;
+    width: 300px;
+    margin: 2% ; 
+    font-size: 2em;
+
+
+}
+
+.pagecontentflex{
+    height: 100vh;
+    width: 100vw;
+    display:flex ; 
+    justify-content: space-around ; 
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+
+
+    
 }
