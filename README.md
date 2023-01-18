@@ -22,6 +22,7 @@
 * boxy budou mít vždy 300px na šířku
 * použij metodu flex-wrap pro responsivnost stránky
 * nepoužívej @media
+### 2 (8.5/10)
 
 ## Ukol 2) (:first child, :after atd)
 * očekávaný čas 15min
