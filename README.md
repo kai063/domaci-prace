@@ -22,6 +22,7 @@
 * boxy budou mít vždy 300px na šířku
 * použij metodu flex-wrap pro responsivnost stránky
 * nepoužívej @media
+### 2 (8.5/10)
 
 ## Ukol 2) (:first child, :after atd)
 * očekávaný čas 15min
@@ -39,6 +40,7 @@
 * na barvách moc nesejde ale snaž se co nejvíce přiblížit
 #### Podstatné věci podle kterých budeš hodnocen:
 * obrázek s xichtem JANE je kulatý a uprostřed
+* Srozumitelnost pojmenování tříd, např.: "cardspace", "cardspace__IMG", "cardspace_IMG--S"
 * Font textu "JANE" a tlačítek "follow jane" a "message" je totožný - použiješ font OPEN SANS z google fonts
 * když najedeš na tlačítko tak se invertne barva (bílá se změní na černou a obráceně) - :hover
 * obrázky dole jsou 2 vedle sebe (ten třetí dole tě nezajímá)

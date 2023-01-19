@@ -1,0 +1,193 @@
+:root {
+    --textcolor: #fff;
+    --backgroundcolor: #121212;
+    --neonpink: #F72585;
+    --darkpink: #B5179E;
+    --teal: #7209B7;
+    --bluebasic: #560BAD;
+    --bluedarker: #480CA8;
+    --bluedark: #3A0CA3;
+    --blueocean: #3F37C9;
+    --blueday: #4361EE;
+    --bluelight: #4895EF;
+    --bluehighlight: #4CC9F0;
+}
+
+body{
+    background-color: var(--backgroundcolor);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.index{
+    width: 100vw;
+    height: 100vh;
+    display:flex ; 
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.link{
+    color: var(--textcolor) ;
+    text-decoration: none;
+    font-size:5em ; 
+    margin: 5%;
+
+}
+
+.link:hover {
+    color:var(--textcolor);
+    animation: flicker 5s infinite alternate;
+}
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 7px rgb(19, 22, 245),
+            0 0 10px rgb(30, 52, 248),
+            0 0 21px rgb(45, 76, 252),
+            0 0 42px rgb(116, 129, 252),
+            0 0 82px rgb(131, 118, 250),
+            0 0 92px rgb(145, 229, 255),
+            0 0 102px rgb(155, 223, 255),
+            0 0 151px rgb(149, 225, 255);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+
+}
+
+.bananbox{
+    color: var(--textcolor) ;
+    padding: 2%;
+    border: 2px solid white; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #a350e7;
+    text-shadow: 0px 0px 50px #a350e7 ;
+    width: 300px;
+    font-size: 2em;
+    text-align: center;
+    display:flex ; 
+    margin: 2%;
+    flex-direction: column;
+
+
+}
+
+.pagecontentflex{
+    height: 100vh;
+    width: 100vw;
+    display:flex ; 
+    justify-content: center ; 
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    
+}
+p1::before{
+    content:" - "   	
+ }
+p1::first-letter{
+    color:#a350e7 ; 
+}
+
+.bananbox p1:first-child{
+    text-shadow: 0px 0px 30px #8900fa;
+}
+
+.bananbox p1:last-child{
+    text-shadow: 0px 0px 30px #e1cbf3;
+
+}
+
+ p1::after{
+    content: "  👈";
+ }
+
+ .buttonbox{
+    display:flex ; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:200px ; 
+ }
+ .button{
+    background-color:#c642d8 ; 
+    font-size: 2em;
+    padding: 5%;
+    border-radius: 30px;
+    text-shadow: 0px 0px 10px var(--textcolor);
+    border: 2px solid var(--textcolor);
+    box-shadow: 0px 0px 10px 0px var(--textcolor);
+    padding-bottom: 1%;
+    
+
+
+ }
+ ::-webkit-scrollbar {
+     width: 12px;
+     box-shadow: 0px 0px 40px 20px #0ff;
+
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background: linear-gradient(#a350e7, transparent, #a350e7);
+     border-radius: 3px;
+     box-shadow: 0px 0px 20px 40px #a350e7;
+
+ }
+
+ ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(#0ff, transparent, #0ff);
+            box-shadow: 0px 0px 20px 40px #0ff;
+
+ }
+
+.button:hover{
+    color: var(--textcolor) ; 
+    box-shadow: 0px 0px 20px 0px var(--textcolor);
+}
+
+.header{
+    display:flex ; 
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-image: url("/IMG/layered-waves-haikei.svg");
+    background-color:var(--backgroundcolor) ; 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    padding-top: 50px;
+    padding-bottom: 250px; 
+
+    
+
+ 
+
+}
+
+h1{
+    color:var(--backgroundcolor); 
+    font-size: 5em;
+    text-shadow: 0px 0px 80px var(--textcolor);
+}
+
+
+
