@@ -173,7 +173,9 @@ p1::first-letter{
     background-image: url("/IMG/layered-waves-haikei.svg");
     background-color:var(--backgroundcolor) ; 
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-attachment: fixed;
+    background-position: center 0;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 250px; 
 
