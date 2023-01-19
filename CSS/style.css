@@ -75,12 +75,12 @@ body{
 }
 
 .bananbox{
-    color:white ;
+    color: var(--textcolor) ;
     padding: 2%;
     border: 2px solid white; 
     border-radius: 20px;
     box-shadow: 0px 0px 10px 5px #a350e7;
-    text-shadow: 0px 0px 10px #a350e7 ;
+    text-shadow: 0px 0px 50px #a350e7 ;
     width: 300px;
     font-size: 2em;
     text-align: center;
@@ -105,7 +105,16 @@ p1::before{
     content:" - "   	
  }
 p1::first-letter{
-    color:#a350e7
+    color:#a350e7 ; 
+}
+
+.bananbox p1:first-child{
+    text-shadow: 0px 0px 30px #8900fa;
+}
+
+.bananbox p1:last-child{
+    text-shadow: 0px 0px 30px #e1cbf3;
+
 }
 
  p1::after{
@@ -120,7 +129,7 @@ p1::first-letter{
     height:200px ; 
  }
  .button{
-    background-color:#a350e7 ; 
+    background-color:#c642d8 ; 
     font-size: 2em;
     padding: 5%;
     border-radius: 30px;
@@ -161,12 +170,24 @@ p1::first-letter{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 300px;
+    background-image: url("/IMG/layered-waves-haikei.svg");
+    background-color:var(--backgroundcolor) ; 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    padding-top: 50px;
+    padding-bottom: 250px; 
+
+    
+
+ 
 
 }
 
 h1{
-    color:var(--textcolor); 
-    font-size: 4em;
-    text-shadow: 0px 0px 20px #a350e7;
+    color:var(--backgroundcolor); 
+    font-size: 5em;
+    text-shadow: 0px 0px 80px var(--textcolor);
 }
+
+
+
