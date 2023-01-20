@@ -32,6 +32,8 @@
 * kde na závěr vytvoříš button který bude vedle sebe mít ikonku (použij SVG pro ikonku)
 
 ![image](https://user-images.githubusercontent.com/91286763/212567880-48b86275-7970-4506-b3a4-86208d0ab7de.png)
+
+### 1 (10/10)
 ## Rozšíření 2. úkolu
 * očekávaný čas 20-30min
 https://flukeout.github.io/
