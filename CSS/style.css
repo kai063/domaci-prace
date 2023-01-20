@@ -75,18 +75,14 @@ body{
 }
 
 .bananbox{
-    color: var(--textcolor) ;
     padding: 2%;
     border: 2px solid white; 
     border-radius: 20px;
     box-shadow: 0px 0px 10px 5px #a350e7;
-    text-shadow: 0px 0px 50px #a350e7 ;
     width: 300px;
     font-size: 2em;
     text-align: center;
-    display:flex ; 
     margin: 2%;
-    flex-direction: column;
 
 
 }
@@ -101,23 +97,28 @@ body{
     align-items: center;
     
 }
-p1::before{
+.bananbox p{
+    padding: 0;
+    text-shadow: 0px 0px 50px #a350e7;
+    color: var(--textcolor);
+}
+.bananbox p::before{
     content:" - "   	
  }
-p1::first-letter{
+.bananbox p:first-letter{
     color:#a350e7 ; 
 }
 
-.bananbox p1:first-child{
+.bananbox p:first-child{
     text-shadow: 0px 0px 30px #8900fa;
 }
 
-.bananbox p1:last-child{
+.bananbox p:last-child{
     text-shadow: 0px 0px 30px #e1cbf3;
 
 }
 
- p1::after{
+.bananbox p::after{
     content: "  👈";
  }
 
@@ -130,12 +131,14 @@ p1::first-letter{
  }
  .button{
     background-color:#c642d8 ; 
-    font-size: 2em;
-    padding: 5%;
     border-radius: 30px;
-    text-shadow: 0px 0px 10px var(--textcolor);
     border: 2px solid var(--textcolor);
     box-shadow: 0px 0px 10px 0px var(--textcolor);
+    padding: 2%;
+    text-decoration: none;
+
+    
+
 
  }
  .button:hover{
@@ -162,6 +165,9 @@ p1::first-letter{
 
  }
 
+.button:hover{
+    box-shadow: 0px 0px 20px 0px var(--textcolor);
+}
 
 .header{
     display:flex ; 
@@ -171,7 +177,9 @@ p1::first-letter{
     background-image: url("/IMG/layered-waves-haikei.svg");
     background-color:var(--backgroundcolor) ; 
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-attachment: fixed;
+    background-position: center 0;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 250px; 
 
@@ -187,5 +195,21 @@ h1{
     text-shadow: 0px 0px 80px var(--textcolor);
 }
 
+.button p{
+    font-size: 2em;
+    color: var(--backgroundcolor) ; 
+}
 
+p{
+
+    margin: 0;
+}
+
+.button p::after{
+    content: "   " url("/IMG/arrow_back_24px.svg");
+}
+
+.button p:hover{
+    color:var(--textcolor); 
+}
 
