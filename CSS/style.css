@@ -366,3 +366,164 @@ a{
     justify-self: flex-start;
     margin:10px ; 
 }
+
+.pagecontentchania{
+    background-color: var(--textcolor);
+    margin: 10px;
+    padding: 0;
+    margin-top: 10px;
+    height: 100vh;
+}
+
+.headerbox h1{
+    margin: 0;
+    color:var(--textcolor) ; 
+    font-size: 2em;
+    padding: 15%;
+}
+
+.headerbox{
+    background-color: #7209B7;
+}
+.bodychania{
+    background-color: var(--textcolor);
+}
+
+.buttonboxchania a{
+    text-decoration: none;
+}
+
+a p{
+    background-color: #43a1ee;
+    color:var(--textcolor) ; 
+    padding: 1%;
+    margin:1% ; 
+}
+
+a p:hover{
+    background-color: #3F37C9;
+}
+
+.infobox {
+    background-color: #43a1ee ;
+    color:var(--textcolor) ; 
+    text-align: center;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 330px;
+    padding-bottom: 6%;
+}
+
+footer{
+    background-color: #4361EE;
+    margin-top: 2%;
+    color:var(--textcolor) ; 
+    text-align: center;
+    padding: 3%;
+    font-size: 5%;
+}
+
+.textbox{
+    margin: 5%;
+}
+
+@media(max-width: 1920px){
+    .pagecontentchania{
+        display:grid ; 
+        grid-template: 20% 1fr 10% / 1fr 2fr 1fr;
+    }
+    
+    .buttonboxchania{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .textbox{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .headerboxchania{
+        grid-row: 1/2;
+        grid-column: 1/4 ; 
+    }
+    .infobox{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .footerbox{
+        grid-row: 3/4 ; 
+        grid-column: 1/4;
+    }
+
+}
+    
+@media(max-width: 750px) {
+    .pagecontentchania {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+    }
+
+    .buttonboxchania {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display:flex ; 
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .textbox {
+        grid-row: 2/3;
+        grid-column: 2/4;
+    }
+
+    .headerboxchania{
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
+
+    .infobox {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
+    .footerbox {
+        grid-row: 4/5;
+        grid-column: 1/4;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .pagecontentchania {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr;
+    }
+
+    .buttonboxchania {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    .textbox {
+        grid-row: 3/4;
+        grid-column: 1/4;
+    }
+
+    .headerboxchania {
+        grid-row: 1/2;
+        grid-column: 1/4;
+    }
+
+    .infobox {
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+
+    .footerbox {
+        grid-row: 4/5;
+        grid-column: 1/4;
+    }
+
+}
